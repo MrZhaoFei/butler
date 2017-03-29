@@ -1,0 +1,87 @@
+/*登录/注册公共页头*/
+.user_header {
+    min-width: 1200px;
+    height: 82px;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+}
+
+/*LOGO*/
+.user_header .user_header_logo {
+    width: 301px;
+    height: 58px;
+    position: absolute;
+    left: 54px;
+    top: 10px;
+}
+
+/*登录主体*/
+.login {
+    height: 776px;
+}
+
+.login .img_bg {
+    position: absolute;
+    width: 100%;
+    min-width: 1200px;
+    background-color: red;
+}
+
+.login .img_bg ul {
+    overflow: hidden;
+}
+
+.login .img_bg ul li {
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    display: block;
+    width: 1920px;
+    height: 776px;
+}
+
+/*登录框*/
+.login .login_content {
+    width: 1200px;
+    background-color: red;
+    margin: auto;
+}
+.login .login_content .login_ct {
+    position: relative;
+}
+
+.login .login_content .login_box {
+    position: absolute;
+    top: 200px;
+    right: 105px;
+    background: #ffffff;
+    padding: 20px;
+    width: 285px;
+    height: 310px;
+    color: #727272;
+    font-size: 14px;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+}
+
+.login .login_content .login_box .box_title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.login .login_content .login_box .box_body {
+    margin: 16px 0 0 0;
+    position: relative;
+}
+
+.login .login_content .login_box .box_body .text_box {
+    width: 240px;
+    height: 36px;
+    margin: 6px 0 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0 0 0 5px;
+    line-height: 36px;
+}

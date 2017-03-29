@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>用户服务系统</title>
+		<!-- 引入bootstrap样式-->
+		<link rel="stylesheet" type="text/css" href="plugs/bootstrap3/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/default.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/user/login.css"/>
+		
+		
+		<!--  引入jquery-->
+		<script src="scripts/jquery-2.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入bootstrap-->
+		<script src="plugs/bootstrap3/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+
+	<body>
+		<!-- 页眉开始 -->
+		<div class="header">
+			    <!--登录/注册公共页头 开始-->
+		    <div class="user_header">
+		        <!--LOGO-->
+		        <div class="user_header_logo">
+		            <img src="images/user/user_login_logo1.png"/>
+		        </div>
+		    </div>
+	    	<!--登录/注册公共页头 结束-->
+		</div>
+		<!-- 页眉结束 -->
+		
+		<!-- 内容开始 -->
+		<div class="content">
+			<div class="login">
+				<!-- 背景图片-->
+				<div class="img_bg">
+					<img src="images/user/user_login_tip1.png"/>
+				</div>
+				<div class="login_content">
+					<div class="login_ct">
+		                <div class="login_box">
+		                    <div class="box_title">医生登录</div>
+		                    <div class="box_body">
+		                        <ul>
+		                            <li>
+		                                <label for="name">用户名</label>
+		                                <input tabindex="1" type="text" class="text_box" id="name" name="name" placeholder="输入您的用户名" autocomplete="off">
+		                            </li>
+		                            <li>
+		                                <label for="password">用户密码</label>
+		                                <input tabindex="2" class="text_box" type="password" id="password" name="password" placeholder="输入您的用户密码">
+		                            </li>
+		                            <li>
+		                                <label for="code">验证码</label><br>
+		                                <input tabindex="3" class="text_box code" type="text" id="code" name="code" placeholder="">
+		                                <img scr="#" class="code_img"/>
+		                            </li>
+		                            <li>
+		                                <div class="remember"><label><input type="checkbox" id="remember" class="remember_check_box" name="remember" checked="checked"/><span class="remember_username">记住帐号</span></label></div>
+		                            </li>
+		                            <li>
+		                                <a tabindex="4" href="javascript:void(0);" class="common_linkbtn login_btn" id="login_btn" name="login_btn">登录</a>
+		                            </li>
+		                            <li>
+		                                <a href="forget_pwd.html" class="common_link lost_password">忘记密码?</a>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                </div>
+		            </div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容结束 -->
+		
+		<!-- 页脚开始 -->
+		<div class="footer">
+			
+		</div>
+		<!-- 页脚结束 -->
+	</body>
+</html>

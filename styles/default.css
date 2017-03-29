@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, input, textarea {
+    font-family: Arial, NSimSun, SimSun, Microsoft YaHei;
+    font-size: 13px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+    -moz-outline: none;
+}
+
+img {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

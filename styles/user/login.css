@@ -57,7 +57,7 @@
     background: #ffffff;
     padding: 20px;
     width: 285px;
-    height: 310px;
+    height: 350px;
     color: #727272;
     font-size: 14px;
     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
@@ -85,3 +85,32 @@
     padding: 0 0 0 5px;
     line-height: 36px;
 }
+.login .login_content .login_box .box_body .lost_password {
+    margin: 0 0 0 110px;
+    position: absolute;
+    top: 70px;
+    left: 60px;;
+}
+
+.remember_check_box {
+    vertical-align: middle;
+}
+/* 忘记密码*/
+a:link{
+	color: #33b8fd;
+	text-decoration: none;
+	outline: none;
+    -moz-outline: none;
+}
+/*记住账号*/
+.remember{
+	text-align: right;
+	padding: 10px 0 0 0;
+}
+/*登录按钮*/
+.login_btn{
+	width: 150px;
+	margin-top: -60px;
+	color: #FFFFFF;
+}
+

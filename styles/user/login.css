@@ -1,116 +1,75 @@
-/*登录/注册公共页头*/
-.user_header {
-    min-width: 1200px;
-    height: 82px;
-    border-bottom: 1px solid #e7e7e7;
-    position: relative;
+.content {
+	height: auto;
+	width: 100%;
+	min-width: 1200px;
 }
 
-/*LOGO*/
-.user_header .user_header_logo {
-    width: 301px;
-    height: 58px;
-    position: absolute;
-    left: 54px;
-    top: 10px;
+.inner_bg {
+	padding: 100px 0 170px 0;
+	background-image: url(../../images/bg_2.jpg);
+	min-height: 960px;
 }
 
-/*登录主体*/
-.login {
-    height: 776px;
+.container {
+	width: 1170px;
 }
 
-.login .img_bg {
-    position: absolute;
-    width: 100%;
-    min-width: 1200px;
-    background-color: red;
+.title {
+	margin-left: 40px;
+	font-size: 38px;
+	font-weight: 100;
+	color: #fff;
+	line-height: 100px;
+	
 }
 
-.login .img_bg ul {
-    overflow: hidden;
+.form-top-left {
+	float: left;
 }
 
-.login .img_bg ul li {
-    position: relative;
-    left: 50%;
-    margin-left: -960px;
-    display: block;
-    width: 1920px;
-    height: 776px;
+.form-top-right {
+	float: left;
+	font-size: 40px;
 }
 
-/*登录框*/
-.login .login_content {
-    width: 1200px;
-    background-color: red;
-    margin: auto;
-}
-.login .login_content .login_ct {
-    position: relative;
-}
-
-.login .login_content .login_box {
-    position: absolute;
-    top: 200px;
-    right: 105px;
-    background: #ffffff;
-    padding: 20px;
-    width: 285px;
-    height: 350px;
-    color: #727272;
-    font-size: 14px;
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 15px 220px;
+	background: #D6E9C6;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	text-align: left;
 }
 
-.login .login_content .login_box .box_title {
-    text-align: center;
-    font-size: 18px;
+.form-bottom {
+	padding: 25px 25px 30px 80px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	text-align: left;
+	background-color: beige;
 }
-
-.login .login_content .login_box .box_body {
-    margin: 16px 0 0 0;
-    position: relative;
+.btn_login{
+	margin-left: 10px;
+	width: 120px;
+	
+	
 }
-
-.login .login_content .login_box .box_body .text_box {
-    width: 240px;
-    height: 36px;
-    margin: 6px 0 10px 0;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-    padding: 0 0 0 5px;
-    line-height: 36px;
+.btn_register{
+	margin-left: 140px;
+	width: 120px;
 }
-.login .login_content .login_box .box_body .lost_password {
-    margin: 0 0 0 110px;
-    position: absolute;
-    top: 70px;
-    left: 60px;;
-}
-
-.remember_check_box {
-    vertical-align: middle;
-}
-/* 忘记密码*/
-a:link{
-	color: #33b8fd;
-	text-decoration: none;
-	outline: none;
-    -moz-outline: none;
-}
-/*记住账号*/
 .remember{
-	text-align: right;
-	padding: 10px 0 0 0;
+	padding: 0 0 25px 0px;
 }
-/*登录按钮*/
-.login_btn{
-	width: 150px;
-	margin-top: -60px;
-	color: #FFFFFF;
+.remember ul li{
+	float: left;
 }
-
+.forget{
+	padding: 0 0 25px 0px;
+	margin-top: -35px;
+}
+.forget ul li{
+	float: right;
+}

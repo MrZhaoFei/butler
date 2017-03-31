@@ -51,7 +51,7 @@
 	background-color: beige;
 }
 .btn_login{
-	margin-left: 10px;
+	margin-left: 0px;
 	width: 120px;
 	
 	
@@ -67,7 +67,7 @@
 	float: left;
 }
 .forget{
-	padding: 0 0 25px 0px;
+	padding: 0 100px 25px 0px;
 	margin-top: -35px;
 }
 .forget ul li{
